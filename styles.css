@@ -1,0 +1,24 @@
+article {
+  width: 800px;
+}
+h1 {
+  font-size: 50px;
+  color: #8218a2;
+  font-family: Trebuchet MS;
+}
+figure {
+  width: 300px;
+  border: 2px solid black;
+  padding: 5px;
+  text-align: center;
+}
+figcaption {
+  font-size: 15px;
+  font-family: Trebuchet MS;
+}
+p {
+  background: #dcffd8;
+  font-family: Trebuchet MS;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
