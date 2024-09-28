@@ -3,7 +3,7 @@ article {
 }
 h1 {
   font-size: 50px;
-  color: #8218a2;
+  color: #5B1865;
   font-family: Trebuchet MS;
 }
 figure {
@@ -24,7 +24,7 @@ p {
 }
 a {
   font-weight: bold;
-  color: #51e06b;
+  color: #09814A;
  }
 
  ul li a {
@@ -34,4 +34,5 @@ a {
  ul li a:hover {
   text-decoration: underline;
   font-weight: normal;
+  color: #32746D 
  }
