@@ -15,7 +15,7 @@ body {
 }
 
 article {
-  width: 800px;
+  width: auto;
 }
 
 h1#site-title {
@@ -44,9 +44,8 @@ p {
 
 figure {
   width: 300px;
-  border: 2px solid black;
+  border: 1px solid blueviolet
   padding: 5px;
-  text-align: center;
 }
 
 figure img {
@@ -60,6 +59,7 @@ figure.main-image {
 }
 
 figure.section-image {
+  width: 300 px 
   float: right;
 }
 
