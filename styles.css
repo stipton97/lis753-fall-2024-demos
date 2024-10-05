@@ -6,6 +6,16 @@ h1 {
   color: #5B1865;
   font-family: Trebuchet MS;
 }
+h1#site-title {
+  font-size: 50px;
+  color: #5B1865;
+  font-family: Trebuchet MS;
+}
+h1#article-title {
+  font-size: 30px;
+  color: #5B1865;
+  font-family: Trebuchet MS;
+}
 figure {
   width: 300px;
   border: 2px solid black;
