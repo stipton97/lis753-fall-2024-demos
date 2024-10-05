@@ -59,7 +59,8 @@ figure.main-image {
 }
 
 figure.section-image {
-  width: 300 px 
+  max-width: 300 px
+  height: auto
   float: right;
 }
 
@@ -76,7 +77,11 @@ p img {
 }
 
 nav ul {
-  justify-content: center
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding-left: 0;
 
 }
 
@@ -85,31 +90,28 @@ nav ul li {
 }
 
 nav ul li a {
+  color: #09814A;
+  text-decoration: none;
+  padding: 12px;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
 
 }
 
 header nav ul li a:hover {
-
-}
-
-header nav ul {
-
-}
-
-a {
-  font-weight: bold;
-  color: #09814A;
- }
-
- ul li a {
-  text-decoration: none;
-
- }
- ul li a:hover {
+  border-bottom: 5px dashed #5B1865;
+  padding-bottom: 10px;
   text-decoration: underline;
   font-weight: normal;
   color: #32746D 
- }
+}
+
+header nav ul {
+  border-top: 1px dashed #5B1865;
+  border-bottom: 1px dashed #5B1865;
+}
 
  footer nav {
 
