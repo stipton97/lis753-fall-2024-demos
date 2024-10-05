@@ -81,6 +81,15 @@ p img {
   margin-left: 20px;
   margin-bottom: 32px;
 }
+
+.paragraph-two {
+  vertical-align: top;
+}
+
+.paragraph-three {
+  vertical-align: top;
+}
+
 nav ul {
   display: flex;
   justify-content: center;
