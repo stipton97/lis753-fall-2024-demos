@@ -29,6 +29,7 @@ h1#article-title {
   font-size: 30px;
   color: #5B1865;
   font-family: Trebuchet MS;
+  text-align: center;
 }
 
 h2 {
@@ -56,7 +57,8 @@ figure img {
 }
 
 figure.main-image {
-  margin-bottom: 32px;
+  margin: auto;
+  display: block;
 }
 
 figure.section-image {
