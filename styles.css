@@ -43,6 +43,7 @@ p {
 }
 
 figure {
+  margin: 0;
   width: 300px;
   border: 1px solid blueviolet
   padding: 5px;
