@@ -109,8 +109,8 @@ header nav ul li a:hover {
 }
 
 header nav ul {
-  border-top: 1px dashed #5B1865;
-  border-bottom: 1px dashed #5B1865;
+  border-top: 1px solid #5B1865;
+  border-bottom: 1px solid #5B1865;
 }
 
  footer nav {
