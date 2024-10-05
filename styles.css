@@ -14,6 +14,10 @@ body {
   max-width: 768px;
 }
 
+article {
+  width: auto;
+}
+
 h1#site-title {
   font-size: 50px;
   color: #5B1865;
@@ -43,6 +47,7 @@ p {
 
 figure {
   margin: 0;
+  width: 300px;
   border: 1px solid blueviolet;
   padding: 12px;
   padding-bottom: 24px;
@@ -58,9 +63,8 @@ figure img {
 figure.main-image {
   background: #dcffd8;
   border-color: #93d98b;
-  color: #5B1865;
+  color: #ffffff;
   margin-bottom: 32px;
-  max-width: 320px;
 }
 
 figure.section-image {
@@ -75,7 +79,6 @@ p img {
   margin-left: 20px;
   margin-bottom: 32px;
 }
-
 nav ul {
   display: flex;
   justify-content: center;
