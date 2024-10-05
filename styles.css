@@ -33,7 +33,9 @@ h1#article-title {
 }
 
 h2 {
-
+  font-size: 30px;
+  color: #5B1865;
+  font-family: Trebuchet MS;
 }
 
 p {
@@ -47,7 +49,8 @@ figure {
   margin: 0;
   width: 300px;
   border: 1px solid blueviolet;
-  padding: 5px;
+  padding: 12px;
+  padding-bottom: 24px;
   background: whitesmoke
 }
 
@@ -58,28 +61,23 @@ figure img {
 }
 
 figure.main-image {
-  display: block;  
-  margin-left: auto;  
-  margin-right: auto; 
+  background: #dcffd8;
+  border-color: #93d98b;
+  color: #ffffff;
+  margin-bottom: 32px;
 }
 
 figure.section-image {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 320px;
   float: right;
-  margin: -20px -40px 30px 20px;
-}
-
-figcaption {
-  font-size: 15px;
-  font-family: Trebuchet MS;
+  margin: -20px -62px 32px 20px;
 }
 
 p img {
   float: right;
-  max-width: 40%;
+  max-width: 60%;
   margin-left: 20px;
-  margin-bottom: 32px
+  margin-bottom: 32px;
 }
 
 nav ul {
