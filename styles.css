@@ -1,37 +1,90 @@
+body {
+
+}
+
+.container {
+
+}
+
+.small-container {
+
+}
+
 article {
   width: 800px;
 }
-h1 {
-  font-size: 50px;
-  color: #5B1865;
-  font-family: Trebuchet MS;
-}
+
 h1#site-title {
   font-size: 50px;
   color: #5B1865;
   font-family: Trebuchet MS;
 }
+
 h1#article-title {
   font-size: 30px;
   color: #5B1865;
   font-family: Trebuchet MS;
 }
-figure {
-  width: 300px;
-  border: 2px solid black;
-  padding: 5px;
-  text-align: center;
+
+h2 {
+
 }
-figcaption {
-  font-size: 15px;
-  font-family: Trebuchet MS;
-}
+
 p {
   background: #dcffd8;
   font-family: Trebuchet MS;
   margin-top: 12px;
   margin-bottom: 12px;
 }
+
+figure {
+  width: 300px;
+  border: 2px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+figure img {
+
+}
+
+figure.main-image {
+
+}
+
+figure.section-image {
+
+}
+
+figcaption {
+  font-size: 15px;
+  font-family: Trebuchet MS;
+}
+
+p img {
+
+}
+
+nav ul {
+
+}
+
+nav ul li {
+
+}
+
+nav ul li a {
+
+}
+
+header nav ul li a:hover {
+
+}
+
+header nav ul {
+
+}
+
 a {
   font-weight: bold;
   color: #09814A;
@@ -45,6 +98,22 @@ a {
   text-decoration: underline;
   font-weight: normal;
   color: #32746D 
+ }
+
+ footer nav {
+
+ }
+
+ footer nav ul li a {
+
+ }
+
+ footer nav ul li a:hover {
+
+ }
+
+ footer#page-footer {
+  
  }
  
 
