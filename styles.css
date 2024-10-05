@@ -83,7 +83,6 @@ nav ul {
   gap: 30px;
   list-style: none;
   padding-left: 0;
-
 }
 
 nav ul li {
@@ -95,21 +94,20 @@ nav ul li a {
   text-decoration: none;
   padding: 12px;
   display: block;
+  text-transform: none;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 1px;
-
 }
 
 header nav ul li a:hover {
-  padding-bottom: 10px;
-  font-weight: normal;
-  color: #32746D 
+  border-bottom: 3px #32746D;
+  padding-bottom: 9px;
 }
 
 header nav ul {
-  border-top: 1px solid #5B1865;
-  border-bottom: 1px solid #5B1865;
+  border-top: 1px solid #09814A;
+  border-bottom: 1px solid #09814A;
 }
 
  footer nav {
