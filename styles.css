@@ -64,10 +64,16 @@ figure.main-image {
 
 figure.section-image {
   max-width: 300px;
+  max-height: 300px;
+  float: right;
+  margin: -20px -40px 30px 20px;
+}
+
+figure.section-image {
+  max-width: 300px;
   height: auto;
   float: right;
 }
-
 figcaption {
   font-size: 15px;
   font-family: Trebuchet MS;
