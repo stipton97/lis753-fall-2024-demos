@@ -46,7 +46,7 @@ p {
 figure {
   margin: 0;
   width: 300px;
-  border: 1px solid blueviolet
+  border: 1px solid blueviolet;
   padding: 5px;
 }
 
@@ -63,8 +63,8 @@ figure.main-image {
 }
 
 figure.section-image {
-  max-width: 300 px
-  height: auto
+  max-width: 300px;
+  height: auto;
   float: right;
 }
 
@@ -76,8 +76,8 @@ figcaption {
 p img {
   float: right;
   max-width: 40%;
-  margin-left: 20 px;
-  margin-bottom: 32 px
+  margin-left: 20px;
+  margin-bottom: 32px
 }
 
 nav ul {
