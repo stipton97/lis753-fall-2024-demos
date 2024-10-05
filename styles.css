@@ -58,8 +58,9 @@ figure img {
 figure.main-image {
   background: #dcffd8;
   border-color: #93d98b;
-  color: #ffffff;
+  color: #5B1865;
   margin-bottom: 32px;
+  max-width: 320px;
 }
 
 figure.section-image {
