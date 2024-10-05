@@ -43,7 +43,6 @@ p {
 
 figure {
   margin: 0;
-  width: 300px;
   border: 1px solid blueviolet;
   padding: 12px;
   padding-bottom: 24px;
@@ -100,7 +99,7 @@ nav ul li a {
 }
 
 header nav ul li a:hover {
-  border-bottom: 3px #32746D;
+  border-bottom: 3px solid #32746D;
   padding-bottom: 9px;
 }
 
@@ -114,15 +113,19 @@ header nav ul {
  }
 
  footer nav ul li a {
-
+  color #ffffff;
  }
 
  footer nav ul li a:hover {
-
+  text-decoration: underline;
  }
 
  footer#page-footer {
-
+  padding: 32px 0;
+  margin-top: 64px;
+  text-align: center;
+  background-color: #A1116B;
+  color: #ffffff;
  }
  
 
