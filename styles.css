@@ -58,8 +58,11 @@ figure img {
 figure.main-image {
   background: whitesmoke;
   border-color: #93d98b;
-  color: #ffffff;
+  color: #060606;
   margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 figure.section-image-odd {
