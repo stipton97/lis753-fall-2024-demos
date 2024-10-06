@@ -49,12 +49,6 @@ figure {
   background: whitesmoke
 }
 
-figure img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 12px;
-}
-
 figure.main-image {
   background: whitesmoke;
   border-color: #93d98b;
