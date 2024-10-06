@@ -82,6 +82,10 @@ p img {
   margin-bottom: 32px;
 }
 
+.clearfix {
+  overflow: auto;
+}
+
 .paragraph-two {
   vertical-align: top;
 }
