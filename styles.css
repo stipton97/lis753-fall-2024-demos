@@ -78,8 +78,8 @@ figure.section-image.odd {
 
 figure.section-image.even {
   max-width: 200px;
-  float: right;
-  margin: -20px -62px 32px 20px;
+  float: left;
+  margin-left: 20px;
 }
 
 p img {
