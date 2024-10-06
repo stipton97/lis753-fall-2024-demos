@@ -62,7 +62,13 @@ figure.main-image {
   margin-bottom: 32px;
 }
 
-figure.section-image {
+figure.section-image-odd {
+  max-width: 320px;
+  float: right;
+  margin: -20px -62px 32px 20px;
+}
+
+figure.section-image-even {
   max-width: 320px;
   float: right;
   margin: -20px -62px 32px 20px;
