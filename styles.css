@@ -1,5 +1,7 @@
 body {
-
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  margin: 0;
 }
 
 .container {
@@ -12,10 +14,6 @@ body {
   margin: 0 auto;
   width: 92%;
   max-width: 768px;
-}
-
-article {
-  width: auto;
 }
 
 h1#site-title {
@@ -39,15 +37,13 @@ h2 {
 }
 
 p {
-  font-family: Trebuchet MS;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  line-height: 1.25;
+  margin-bottom: 1.25em;
 }
 
 figure {
   margin: 0;
-  width: 300px;
-  border: 1px solid blueviolet;
+  border: 1px solid black;
   padding: 12px;
   padding-bottom: 24px;
   background: whitesmoke
@@ -62,15 +58,12 @@ figure img {
 figure.main-image {
   background: whitesmoke;
   border-color: #93d98b;
-  color: #060606;
+  color: #ffffff;
   margin-bottom: 32px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
 }
 
 figure.section-image {
-  max-width: 200px;
+  max-width: 320px;
   float: right;
   margin: -20px -62px 32px 20px;
 }
@@ -82,18 +75,6 @@ p img {
   margin-bottom: 32px;
 }
 
-.clearfix {
-  overflow: auto;
-}
-
-.paragraph-two {
-  vertical-align: top;
-}
-
-.paragraph-three {
-  vertical-align: top;
-}
-
 nav ul {
   display: flex;
   justify-content: center;
@@ -102,9 +83,12 @@ nav ul {
   padding-left: 0;
 }
 
+
 nav ul li {
 
+
 }
+
 
 nav ul li a {
   color: #09814A;
@@ -117,28 +101,36 @@ nav ul li a {
   letter-spacing: 1px;
 }
 
+
 header nav ul li a:hover {
   border-bottom: 3px solid #32746D;
   padding-bottom: 9px;
 }
+
 
 header nav ul {
   border-top: 1px dashed #09814A;
   border-bottom: 1px dashed #09814A;
 }
 
+
  footer nav {
 
+
  }
+
 
  footer nav ul li a {
   color:#0b5f1a;
 
+
  }
+
 
  footer nav ul li a:hover {
   text-decoration: underline;
  }
+
 
  footer#page-footer {
   padding: 32px 0;
@@ -147,3 +139,5 @@ header nav ul {
   background-color: whitesmoke;
   color: #0b5f1a;
  }
+
+
