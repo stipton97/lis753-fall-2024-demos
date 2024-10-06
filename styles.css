@@ -66,6 +66,10 @@ figure.main-image {
   max-width: 320px;
 }
 
+.clearfix {
+  overflow: auto;
+}
+
 figure.section-image-odd {
   max-width: 200px;
   float: right;
