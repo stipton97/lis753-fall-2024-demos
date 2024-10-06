@@ -70,7 +70,7 @@ figure.main-image {
 }
 
 figure.section-image {
-  max-width: 320px;
+  max-width: 200px;
   float: right;
   margin: -20px -62px 32px 20px;
 }
