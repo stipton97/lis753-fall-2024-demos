@@ -71,13 +71,13 @@ figure.main-image {
   overflow: auto;
 }
 
-figure.section-image-odd {
+figure.section-image.odd {
   max-width: 200px;
   float: right;
   margin: -20px -62px 32px 20px;
 }
 
-figure.section-image-even {
+figure.section-image.even {
   max-width: 200px;
   float: right;
   margin: -20px -62px 32px 20px;
