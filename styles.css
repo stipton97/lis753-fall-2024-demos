@@ -50,6 +50,8 @@ img {
 }
 
 figure {
+  max-width: 100%;
+  height: auto;
   margin: 0;
   border: 1px solid black;
   padding: 12px;
@@ -58,10 +60,14 @@ figure {
 }
 
 figure img {
+  max-width: 100%;
+  height: auto;
   margin-bottom: 12px;
 }
 
 figure.main-image {
+  max-width: 100%;
+  height: auto;
   background: #e5f1e3;
   border-color: 1px solid #285742;
   color: #060606;
@@ -69,7 +75,6 @@ figure.main-image {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  max-width: 520px;
   width: 520px;
 }
 
@@ -78,19 +83,23 @@ figure.main-image {
 }
 
 figure.section-image.odd {
-  max-width: 200px;
-  float: right;
-  margin: -1px 20px 32px 62px;
-}
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 0;
+  }
 
 figure.section-image.even {
-  max-width: 200px;
+  max-width: 100%;
+  height: auto;
+  width: 200px;
   float: right;
   margin: -1px 20px 32px 62px;
 }
 
 p img {
   float: right;
+  height: auto;
   max-width: 60%;
   margin-left: 20px;
   margin-bottom: 32px;
