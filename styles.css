@@ -105,6 +105,14 @@ nav ul {
 }
 
 
+@media all and (min-width: 376) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
 nav ul li {
 
 
