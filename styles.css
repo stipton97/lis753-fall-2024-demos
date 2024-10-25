@@ -44,6 +44,11 @@ p {
   margin-bottom: 1.25em;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 figure {
   margin: 0;
   border: 1px solid black;
@@ -53,8 +58,6 @@ figure {
 }
 
 figure img {
-  max-width: 100%;
-  height: auto;
   margin-bottom: 12px;
 }
 
