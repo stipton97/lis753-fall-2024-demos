@@ -61,23 +61,23 @@ figure img {
   margin-bottom: 12px;
 }
 
-figure.main-image {
-  background: #e5f1e3;
-  border-color: 1px solid #285742;
-  color: #060606;
-  margin-bottom: 32px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  max-width: 520px;
-  width: 520px;
-}
-
 .clearfix {
   overflow: auto;
 }
 
 @media all and (min-width: 768px) {
+  figure.main-image {
+    background: #e5f1e3;
+    border-color: 1px solid #285742;
+    color: #060606;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 520px;
+    width: 520px;
+  }
+
   figure.section-image.odd {
     max-width: 200px;
     float: right;
