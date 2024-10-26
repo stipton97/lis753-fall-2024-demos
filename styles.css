@@ -66,6 +66,7 @@ figure img {
 }
 
 @media all and (min-width: 768px) {
+
   figure.main-image {
     background: #e5f1e3;
     border-color: 1px solid #285742;
@@ -98,14 +99,6 @@ p img {
   margin-bottom: 32px;
 }
 
-nav ul {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  list-style: none;
-  padding-left: 0;
-}
-
 
 @media all and (min-width: 376) {
 
@@ -113,6 +106,8 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 30px;
+    list-style: none;
+    padding-left: 0;
   }
 }
 
