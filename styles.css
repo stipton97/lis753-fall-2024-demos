@@ -100,7 +100,7 @@ p img {
 }
 
 
-@media all and (min-width: 376) {
+@media all and (min-width: 376px) {
 
   nav ul {
     display: flex;
