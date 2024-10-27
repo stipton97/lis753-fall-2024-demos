@@ -107,7 +107,7 @@ p img {
     justify-content: center;
     gap: 30px;
     list-style: none;
-    padding-left: 0px;
+    padding-left: 0;
   }
 }
 
