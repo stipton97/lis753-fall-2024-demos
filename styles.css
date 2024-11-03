@@ -31,6 +31,35 @@ h1#article-title {
   text-align: center;
 }
 
+#message {
+  background: #E9FFE4;
+  border: 1px solid #178201;
+  padding: 20px 40px;
+  margin: 12px 0;
+  border-radius: 4px;
+  width: 400px;
+  opacity: 1;
+  transition: opacity .2s ease;
+}
+
+#message.dismissed {
+  opacity: 0;
+  height: 0;
+}
+
+#message button {
+  float: right;
+}
+
+body.dark-mode {
+  background: #010101;
+  color: #ffffff;
+}
+
+body.dark-mode button {
+  background-color: #ffffff;
+}
+
 h2 {
   font-size: 30px;
   color: #5B1865;
